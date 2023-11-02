@@ -330,9 +330,6 @@ class Video(object):
 
             self._increment_frames(frame, faces, video_id, root, lang, size_multiplier)
 
-            if cv2.waitKey(1) & 0xFF == ord("q"):
-                break
-
             if faces:
                 frames_emotions.append(faces)
 
