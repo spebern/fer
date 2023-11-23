@@ -379,4 +379,5 @@ class Video(object):
         return crop_frame
 
     def __del__(self):
-        cv2.destroyAllWindows()
+        pass
+        # cv2.destroyAllWindows()
